@@ -1,0 +1,24 @@
+task main()
+{
+  motor[motorB]=50;
+  motor[motorC]=50;
+  wait1Msec(3000);
+  motor[motorB]=70;
+  motor[motorC]=-70;
+  wait1Msec(300);
+  motor[motorB]=50;
+  motor[motorC]=50;
+  wait1Msec(3000);
+  motor[motorB]=70;
+  motor[motorC]=-70;
+  wait1Msec(300);
+  motor[motorB]=50;
+  motor[motorC]=50;
+  wait1Msec(3000);
+  motor[motorB]=70;
+  motor[motorC]=-70;
+  wait1Msec(300);
+  motor[motorB]=50;
+  motor[motorC]=50;
+  wait1Msec(3000);
+}
